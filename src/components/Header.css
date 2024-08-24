@@ -1,0 +1,38 @@
+.logo img {
+    width: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+ }
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+.links ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+}
